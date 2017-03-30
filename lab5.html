@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab5</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table border="1px" cellspacing="0" cellpadding="10" width="500" height="5">
+		<tr><!--第一行-->
+			<td width="100">用户名：</td>
+			<td><form>
+				<input type="text" name="Name"/>
+			</form></td>
+		</tr>
+		<tr><!--第二行-->
+			<td>密码：</td>
+			<td><form>
+				<input type="password" name="password1"/>
+			</form></td>
+		</tr>
+		<tr><!--第三行-->
+			<td>确认密码：</td>
+			<td><form>
+				<input type="password" name="password2">
+			</form></td>
+		</tr>
+		<tr><!--第四行-->
+			<td>性别：</td>
+			<td><form>
+				<input type="radio" value="Male" name="sex" checked="checked"/>男
+				<input type="radio" value="Female" name="sex"/>女
+			</form></td>
+		</tr>
+		<tr><!--第五行-->
+			<td>生日：</td>
+			<td><form>
+				<select name="style">
+					<option value="one" selected="selected">公历</option>
+					<option value="two">农历</option>
+				</select>
+				<select name="year">
+					<option value="one" selected="selected">年</option>
+					<option value="two">1998</option>
+				</select>
+				<select name="month">
+					<option value="one" selected="selected">月</option>
+					<option value="two">1</option>
+				</select>
+				<select name="style">
+					<option value="one" selected="selected">日</option>
+					<option value="two">1</option>
+				</select>
+			</form></td>
+		</tr>
+		<tr><!--第六行-->
+			<td>所在地：</td>
+			<td><form>
+				<select name="country">
+					<option value="one" selected="selected">中国</option>
+					<option value="two">新西兰</option>
+				</select>
+				<select name="provence">
+					<option value="one" selected="selected">河北</option>
+					<option value="two">江苏</option>
+				</select>
+				<select name="city">
+					<option value="one" selected="selected">石家庄</option>
+					<option value="two">南京</option>
+				</select>
+			</form></td>
+		</tr>
+		<tr><!--第七行-->
+			<td>验证码：</td>
+			<td><form>
+				<input type="text" name="验证码"/>
+				<img src="./lab5 image/identifing.png" alt="请刷新重试" />
+			</form></td>
+		</tr>
+		<tr><!--第八行-->
+			<td>证件类型：</td>
+			<td><form>
+			<select name="identifing">
+				<option value="one" selected="selected">身份证</option>
+				<option value="two">学生证</option>
+			</select>
+			</form></td>
+		</tr>
+		<tr><!--第九行-->
+			<td>证件号：</td>
+			<td><form>
+				<input type="text" name="identify"/>
+			</form></td>
+		</tr>
+		<tr><!--第十行-->
+			<td>爱好：</td>
+			<td>
+			<input type="checkbox" value="music" name="goods"/>音乐
+			<input type="checkbox" value="read" name="goods" checked="checked" />读书
+			<input type="checkbox" value="read" name="goods" checked="checked" />跳舞
+			<input type="checkbox" value="chess" name="goods"/>下棋
+			<input type="checkbox" value="others" name="goods"/>其他
+			</td>
+		</tr>
+		<tr><!--第十一行-->
+			<td>说明：</td>
+			<td><form>
+				<textarea name="introduction" rows="6" cols="30"></textarea>
+			</form></td>
+		</tr>
+		<tr><!--第十二行-->
+			<td>上传头像</td>
+			<td><form>
+				<input type="file" name="files"/>
+			</form></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<form>
+					<input type="submit" value="提交" name="sub"/>
+					<input type="reset" value="重置" name="res"/>
+					<input type="button" value="按钮" name="button"/>
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
