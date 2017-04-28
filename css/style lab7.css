@@ -1,0 +1,14 @@
+	p{color:gray;
+	  font-size:12px;
+	  font-family:Arial;
+	  line-height: 2em;}
+	a{color:#727272;}
+	a:link{text-decoration:none;}
+	a:hover{text-decoration:underline;}
+	.color{color:#b9f605;
+		font-size: 14px;
+		font-weight: 700;}
+	.acolor{color:white;}
+	a:hover{color:#b9f605;
+		text-decoration:nonenone;}
+	.alast{color:#fdb306;}
