@@ -1,0 +1,29 @@
+	.a{
+		background-image: url(../lab8/image/baibiaoti.png);
+		background-repeat:no-repeat;
+		margin-left: 20px;
+		height: 36px;
+		padding-top: 10px;
+		padding-left: 50px;
+	}
+	ul{
+		list-style-type: none;
+		color: gray;
+	}
+	#b{
+		background-image: url(../lab8/image/lvbiaoti.png);
+		background-repeat:no-repeat;
+		margin-left: 20px;
+		height: 36px;
+		padding-top: 10px;
+		padding-left: 50px;
+	}
+	.menu{
+		background-image: 
+	}
+	#c{
+		background-image:url(../lab8/image/header.png);
+		background-repeat:no-repeat;
+		width: 175px;
+		height: 65px;
+	}

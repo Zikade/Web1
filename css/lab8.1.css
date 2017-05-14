@@ -1,0 +1,36 @@
+	*{
+		margin:0px;
+	}
+#titlediv{
+	background-image: url(../lab8/image/left_nav_title.gif);
+	height:40px;
+	background-repeat: no-repeat;
+	color:white;
+	margin-left: 40px;
+	padding-top: 10px;
+	padding-left:50px;
+}
+li{
+	list-style-type: none;
+	background-image: url(../lab8/image/baibiaoti.png);
+	background-repeat:no-repeat;
+	height:40px;
+	padding-left: 20px;
+}
+ul {
+	list-style:inside url(../lab8/image/left_cur.gif);
+	}
+a{
+	text-decoration:none;
+	color:black;
+}
+.checked a{
+	color:red;
+	font-size:20px;
+}
+#footerdiv{
+	background-image:url(../lab8/image/left_nav_bottom.gif); 
+	background-repeat: no-repeat;
+	height:35px;
+	margin-left: 40px;
+}

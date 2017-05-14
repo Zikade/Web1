@@ -1,0 +1,19 @@
+li{
+	color: #b9f605;
+	padding: 0px 25px;
+	display:inline;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.sprcil{
+	color:#fdb306
+}
+.a{
+	font-color:orange;
+}
+.menu{
+	background-image: url(../ab8/image/bg.gif);
+	height: 30px;
+}
