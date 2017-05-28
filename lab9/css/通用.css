@@ -1,0 +1,75 @@
+#whole{
+	margin: 0 auto;
+	padding: 0;
+	font:12px "宋体";
+	list-style-type: none;
+	color: #522a06;
+}
+a:link{
+	text-decoration: none
+}
+a:active{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+image{
+	border: 0px;
+}
+body{
+	background-image: url(../images/bodybg.gif);
+	margin: 0 auto;
+}
+#header{
+	height: 205px;
+	background-image: url(../images/bg.gif);
+	background-position: center top;
+}
+#banner{
+	width: 1000px;
+	height: 164px;
+	margin: 0 auto;
+}
+.logo{
+	margin: 0 auto;
+	margin-top: 38px;
+	margin-left: 25px;
+}
+#nav{
+	height: 40px;
+	background-image: url(../images/nav.jpg);
+}
+.nav_body a{
+	color: white;
+}
+.nav_body{
+	width: 1000px;
+	margin: 0 auto;
+	height: 30px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 140%;
+	padding-top:13px;
+	float: left;
+	padding-left: 80px;
+}
+#sousuo{
+	padding-top: 8px;
+}
+#footer{
+	height: 105px;
+	clear: both;
+	background-image: url(../images/foot.gif);
+	color:#AE0000;
+}
+p{
+	font-size: 14px;
+}
+.lianjie{
+	font-size: 14px;
+}
+.lianjie a{
+	color:#AE0000;
+	font-weight: 700;
+}

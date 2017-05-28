@@ -1,59 +1,24 @@
-#whole{
-	margin: 0 auto;
-	padding: 0;
-	font:12px "宋体";
-	list-style-type: none;
-	color: #522a06;
-}
-a{
-	text-decoration: none
-}
-a:active{
-	color: #522a06;
-}
-a:hover{
-	text-decoration: underline;
-}
-image{
-	border: 0px;
-}
-body{
-	background-image: url(./images/bodybg.gif);
-	margin: 0 auto;
-}
-#header{
-	height: 205px;
-	background-image: url(./images/bg.gif);
-	background-position: center top;
-}
-#banner{
-	width: 1000px;
-	height: 164px;
-	margin: 0 auto;
-}
-.logo{
-	margin: 0 auto;
-	margin-top: 38px;
-	margin-left: 25px;
-}
-#nav{
-	height: 40px;
-	background-image: url(./images/nav.jpg);
-}
-.nav_body{
-	width: 1000px;
-	margin: 0 auto;
-}
 .nav_content{
 	height: 800px;
-	font-weight: :700;
+	font-weight: 700;
 	color: #fff;
+	font-size: 140%;
+	padding-top:13px;
+}
+a:link{
+	color: #fff;
+}
+a:active{
+	color: #f9f603;
+}
+a:active{
+	text-decoration: none;
 }
 .nav_search{
 	height: 19px;
 	width: 140px;
 	background-color: #f8f5ee;
-}
+	}
 .search{
 	width: 44px;
 	height: 21px;
@@ -63,7 +28,7 @@ body{
 }
 #content{
 	height: 1000px;
-	margin: 0 auto;
+	margin: 0 150px;
 	clear: both;
 }
 #content_top{
@@ -71,21 +36,32 @@ body{
 }
 .news_pic{
 	width: 324px;
-	height: 243px;
-	background-image: url(./images/news_bg.png);
+	height: 227px;
+	background-image: url(../images/news_bg.png);
+	padding-top: 15px;
 	float: left;
-
 }
 .news_list{
-	width: 330px;
+	width: 400px;
 	margin-left: 38px;
 	float: left;
+	color: #522a06;
+	color: #522a06
+}
+li{
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
 }
 .news_announce{
 	width: 277px;
 	margin-top: 20px;
 	float: right;
-
+}
+.announce{
+	background-image: url(../images/board_bg.png);
+	height: 205px;
+	float: left;
 }
 #content_bottom_left{
 	height: 715px;
@@ -93,10 +69,20 @@ body{
 }
 .academic{
 	width: 340px;
+	float: left;
+}
+#academicpic{
+	float: right;
+}
+#more{
+	float: left;
+	position: absolute;
+	height: 0px;
 }
 .book_news{
 	width: 340px;
 	margin-left: 25px;
+	float: left;
 }
 .fengcai{
 	width: 700px;
@@ -109,18 +95,24 @@ body{
 }
 .mingjia{
 	height: 23px;
-	background-image: url(./images/show.png);
 }
 .photo{
-	width: 224px;
+	width: 280px;
 	margin: 0 auto;
+	background-image: url(../images/show_bg.png);
+	height: 365px;
+}
+.word{
+		color: red;
+		font-size: 15px;
+		font-weight: bolder;
+}
+.pra{
+	padding:0px 25px;
+	line-height: 20px;
+	font-size: 15px;
 }
 .ouyang{
 	width: 362px;
-	background-image: url(./images/show_bg.png);
-}
-#footer{
-	height: 105px;
-	clear: both;
-	background-image: url(./imaged/foot.gif);
+	background-image: url(../images/show_bg.png);
 }
