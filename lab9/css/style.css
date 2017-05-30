@@ -5,8 +5,8 @@
 	font-size: 140%;
 	padding-top:13px;
 }
-a:link{
-	color: #fff;
+a{
+	color: #AE0000;
 }
 a:active{
 	color: #f9f603;
@@ -33,6 +33,7 @@ a:active{
 }
 #content_top{
 	overflow: hidden;
+	width:1050px;
 }
 .news_pic{
 	width: 324px;
@@ -75,9 +76,16 @@ li{
 	float: right;
 }
 #more{
-	float: left;
 	position: absolute;
-	height: 0px;
+	height:20px;
+	left: 470px;
+	top: 490px;
+}
+.more{
+	position: absolute;
+	height:20px;
+	left: 840px;
+	top: 490px;
 }
 .book_news{
 	width: 340px;
