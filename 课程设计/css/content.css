@@ -1,0 +1,47 @@
+.pic1{
+	padding-left: 60px;
+}
+.pic2{
+	padding-left: 90px;
+}
+.pic3{
+	padding-left: 95px;
+}
+.pic4{
+	padding-left: 90px;
+}
+.pic5{
+	padding-left: 90px;
+}
+.pic6{
+	padding-left: 90px;
+}
+.fanye1{
+	height: 20px;
+	position: absolute;
+	background-color: #FFAAD5;
+	top: 670px;
+	left: 200px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.fanye2{
+	height: 20px;
+	position: absolute;
+	background-color: #FFAAD5;
+	top: 670px;
+	left: 700px;
+	font-size: 16px;
+	line-height: 20px;
+}
+#content{
+	position: absolute;
+	z-index: 2;
+}
+.d{
+	color: #46A3FF;
+}
+.comment{
+	width: 700px;
+	height: 200px;
+}

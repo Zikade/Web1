@@ -1,0 +1,16 @@
+#content a{
+	color: #000000;
+}
+#content a:hover{
+	border: 0px;
+	color: #FFAAD5;
+}
+#content{
+	line-height: 30px;
+}
+#sp{
+	padding-left: 100px;
+	padding-top: 20px;
+	position: absolute;
+	z-index: 1;
+}

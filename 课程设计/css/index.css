@@ -1,0 +1,22 @@
+h1{
+	font-size: 20px;
+	color: #46A3FF;
+	text-align: center;
+}
+h2{
+	font-size: 18px;
+	color: #0000E3;
+}
+.word a:hover{
+	border: 0px solid #FFAAD5;
+}
+.word a{
+	color: #000000;
+}
+.mania{
+	height: 200px;
+}
+#content{
+	position: absolute;
+	z-index: 1;
+}

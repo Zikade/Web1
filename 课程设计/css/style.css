@@ -1,0 +1,134 @@
+body{
+	background-image: url(../images/bg.gif);
+}
+#head{
+	height: 300px;
+	width: 1000px;
+	position: absolute;
+	left: 15%;
+	top: 100px;
+	position: absolute;
+	z-index: 1;
+}
+#logo{
+	float: left;
+	padding-left: 150px;
+	position: absolute;
+	z-index: 3;
+}
+#head{
+	background-color: #FFAAD5;
+	height: 115px;
+	width: 1000px;
+}
+#download{
+	width: 300px;
+	height: 30px;
+	margin-left: 400px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 2px;
+	float: left;
+	font-size: 30px;
+}
+div a:link{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+div a:hover{
+	color: #46A3FF;
+	border: 3px solid #46A3FF;
+}
+a:visited{
+	color: #FFFFFF;
+}
+#link{
+	border: 1px solid #FFFFFF;
+	margin-top: 40px;
+	margin-left: 100px;
+	width: 400px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#sousuo{
+	padding-left: 50px;
+	padding-top: 15px;
+}
+#login{
+	position: absolute;
+	width: 100px;
+	top: 1px;
+	right: 100px;
+}
+#match{
+	height: 400px;
+	width: 200px;
+	background-color: #FFAAD5;
+	float: right;
+	margin-right: 140px;
+	margin-top: 230px;
+}
+#wc{
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	color: #4A4AFF;
+}
+ul{
+	list-style: none;
+	font-size: 14px;
+}
+ul a:hover{
+	border: 0px;
+}
+#content{
+	border: 2px solid #FFAAD5;
+	float: left;
+	width: 770px;
+	margin-left: 195px;
+	margin-top: 230px;
+	padding-left: 10px;
+	height: 400px;
+	overflow:auto;
+	color: white;
+}
+#foot1{
+	width: 1340px;
+	height: 80px;
+	background-color: #FFAAD5;
+	position: absolute;
+	top: 830px;
+	z-index: 1;
+}
+#foot{
+	height: 80px;
+	position: absolute;
+	top: 0px;
+	left: 350px;
+	z-index: 2;
+}
+#bg{
+	position: absolute;
+	opacity: 0.5;
+	z-index: 0;
+	top: 240px;
+	left: 206px;
+}
+.bg{
+	position: absolute;
+	height: 400px;
+	width: 760px;
+}
+#ad{
+	height: 100px;
+	position: absolute;
+	top: 700px;
+	left: 200px;
+}
+.ad{
+	height: 100px;
+}
+#ad a:hover{
+	border: 0px;
+	opacity: 0.7
+}
